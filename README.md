@@ -33,7 +33,7 @@ spawn-at-startup "otter-notifications"
 spawn-at-startup "otter-polkit"
 spawn-at-startup "otter-idle"
 ```
-## Keybinds for Otter-OSD: capslock,numlock, volume and brightness
+## Keybinds for Otter-OSD: capslock, numlock, volume and brightness
 ```
 Caps_Lock            allow-when-locked=true { spawn "sh" "-c" "otter-osd caps-lock && wtype -k Caps_Lock"; }
 Num_Lock             allow-when-locked=true { spawn "sh" "-c" "otter-osd num-lock && wtype -k Num_Lock"; }
