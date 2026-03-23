@@ -5,7 +5,6 @@
 pikman i otter-shell
 pikman i wtype
 (wtype is needed to make toggling and the osd work on niri)
-Disable and mask the hypridle service
 ```
 ## Disable the Hypridle sevice
 ```
