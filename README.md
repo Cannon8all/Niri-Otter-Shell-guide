@@ -13,7 +13,8 @@ sudo systemctl disable --now hypridle.service
 systemctl --user mask hypridle.service
 ```
 ## First of all copy your current (noctalia) config.kdl and back it up
-﻿## Remove or comment like below:
+﻿
+ ## Remove or comment like below:
 ```
 //start-at-startup noctalia-shell/pikabar 
 //spawn-at-startup "swww-notifications"
