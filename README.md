@@ -1,4 +1,4 @@
-# __**Setting up Otter-Shell on Niri**__
+# Setting up Otter-Shell on Niri
 
 ## Install otter-shell
 ```
