@@ -2,17 +2,19 @@ __**This is for Otter-Shell on Niri**__
 
 Install otter-shell
 -------------------
+```
 pikman i otter-shell
 pikman i wtype
 (wtype is needed to make toggling and the osd work on niri)
 Disable and mask the hypridle service
-
+```
 Disable the Hypridle sevice
 ---------------------------
--killall hypridle
--sudo systemctl disable --now hypridle.service
--systemctl --user mask hypridle.service
-
+```
+killall hypridle
+sudo systemctl disable --now hypridle.service
+systemctl --user mask hypridle.service
+```
 Copy your current (noctalia) config.kdl and back it up
 ------------------------------------------------------
 ﻿
