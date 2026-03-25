@@ -42,12 +42,14 @@ XF86AudioMute        allow-when-locked=true { spawn "otter-osd" "volume-mute-tog
 XF86MonBrightnessUp  allow-when-locked=true { spawn "sh" "-c" "brightnessctl set +5% && otter-osd brightness-up"; }
 XF86MonBrightnessDown allow-when-locked=true { spawn "sh" "-c" "brightnessctl set 5%- && otter-osd brightness-down"; }
 ```
-## Keybinds for Otter-launcher and Otter-Logout (adjust to your choice)
+## Keybinds for Otter-launcher and Otter-Logout (disabe or adjust to your choice)
 ```
 //Spawn and toggle otter-launcher
     Mod+Space { spawn "sh" "-c" "pkill otter-launcher || otter-launcher"; }
 //Shutdown-Logout
     Ctrl+Alt+Delete { spawn "otter-logout"; }
+//Keybind for locking
+    Super+Alt+L allow-when-locked=true { spawn "sh" "-c" "otter-lock"; }
 ```
 ## Add this as a layer to have the overview blur working correctly
 ```
