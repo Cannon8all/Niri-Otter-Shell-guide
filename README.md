@@ -49,7 +49,7 @@ XF86MonBrightnessDown allow-when-locked=true { spawn "sh" "-c" "brightnessctl se
 //Shutdown-Logout
     Ctrl+Alt+Delete { spawn "otter-logout"; }
 //Keybind for locking
-    Super+Alt+L allow-when-locked=true { spawn "sh" "-c" "otter-lock"; }
+    Mod+Alt+L allow-when-locked=true { spawn "sh" "-c" "otter-lock"; }
 ```
 ## Add this as a layer to have the overview blur working correctly
 ```
