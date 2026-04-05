@@ -6,7 +6,7 @@ pikman i otter-shell
 pikman i wtype
 (wtype is needed to make toggling and the osd work on niri)
 ```
-## Disable the Hypridle sevice
+## Disable the Hypridle service
 ```
 killall hypridle
 sudo systemctl disable --now hypridle.service
