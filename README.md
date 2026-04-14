@@ -1,4 +1,4 @@
-# Setting up Otter-Shell on PikaOS Niri
+#Setup Otter-Shell in the config.kdl for PikaOS Niri
 
 ## Install otter-shell
 ```
